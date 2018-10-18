@@ -1,0 +1,1 @@
+Red Social hecha con el MEAN, MongoDB, Express, Angular y NodeJS
