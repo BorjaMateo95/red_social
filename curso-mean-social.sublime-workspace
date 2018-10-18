@@ -1,0 +1,520 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"foll",
+				"follow_routes"
+			],
+			[
+				"pat",
+				"path_file"
+			],
+			[
+				"ima",
+				"image_file"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"findByI",
+				"findByIdAndUpdate"
+			],
+			[
+				"fil",
+				"file_path"
+			],
+			[
+				"file_",
+				"file_path"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"up",
+				"uploadImage"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"a",
+				"authorization"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"sav",
+				"saveUser"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"F",
+				"FollowSchema"
+			],
+			[
+				"P",
+				"PublicationSchema"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"s",
+				"socket"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"ba",
+				"backColor"
+			],
+			[
+				"com",
+				"comm-html-header\tComment - HTML section header"
+			],
+			[
+				"im",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"pull",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"pu",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"visi",
+				"visible-md \tBootstrap 3 Class"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"comm",
+				"comm-html-section\tComment - HTML section"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"t",
+				"toogle"
+			],
+			[
+				"tit",
+				"titulos2"
+			],
+			[
+				"titu",
+				"titulos1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"movi",
+				"movimientoSlide"
+			],
+			[
+				"co",
+				"comm-html\tComment - HTML comment"
+			],
+			[
+				"slide",
+				"slide3"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"fet",
+				"fetchAll"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"js",
+				"jsonRedesSociales"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"texal",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"comm-html-",
+				"comm-html-section\tComment - HTML section"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/CURILLA/Desktop/BORJA/DESARROLLO WEB/PLANTILLA_EMAIL/index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"index.html",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/curso_redsocial/api/controllers/follow.js",
+		"/C/xampp/htdocs/curso_redsocial/api/controllers/user.js",
+		"/C/xampp/htdocs/curso_redsocial/api/routes/follow.js",
+		"/C/xampp/htdocs/curso_redsocial/api/app.js",
+		"/C/xampp/htdocs/curso_redsocial/api/routes/user.js",
+		"/C/xampp/htdocs/curso_redsocial/api/package.json",
+		"/C/xampp/htdocs/curso_redsocial/api/services/jwt.js",
+		"/C/xampp/htdocs/curso_redsocial/api/middlewares/autenticated.js",
+		"/C/xampp/htdocs/curso_redsocial/api/models/user.js",
+		"/C/xampp/htdocs/curso_redsocial/api/models/follow.js",
+		"/C/xampp/htdocs/curso_redsocial/api/models/publication.js",
+		"/C/xampp/htdocs/curso_redsocial/api/models/message.js",
+		"/C/xampp/htdocs/curso_redsocial/api/models/publication",
+		"/C/xampp/htdocs/curso_redsocial/package.json",
+		"/C/xampp/htdocs/curso-sockets/package.json",
+		"/C/xampp/htdocs/curso-sockets/server/index.js",
+		"/C/xampp/htdocs/curso-sockets/client/index.html",
+		"/C/xampp/htdocs/curso-sockets/client/main.js",
+		"/C/xampp/htdocs/frontend/vistas/css/productos.css",
+		"/C/xampp/htdocs/frontend/vistas/modulos/slide.php",
+		"/C/xampp/htdocs/frontend/vistas/js/slide.js",
+		"/C/xampp/htdocs/frontend/vistas/plantilla.php",
+		"/C/xampp/htdocs/frontend/vistas/css/slide.css",
+		"/C/Electron/package.json",
+		"/C/xampp/htdocs/frontend/modelos/productos.modelo.php",
+		"/C/xampp/htdocs/frontend/vistas/css/cabezote.css",
+		"/C/xampp/htdocs/frontend/vistas/modulos/productos.php",
+		"/C/xampp/htdocs/frontend/vistas/modulos/error404.php",
+		"/C/xampp/htdocs/frontend/vistas/css/plantilla.css",
+		"/C/xampp/htdocs/frontend/modelos/plantilla.modelo.php",
+		"/C/xampp/htdocs/frontend/modelos/rutas.php",
+		"/C/xampp/htdocs/frontend/index.php",
+		"/C/xampp/htdocs/frontend/.htaccess",
+		"/C/xampp/htdocs/frontend/vistas/js/cabezote.js",
+		"/C/xampp/htdocs/frontend/ajax/plantilla.ajax.php",
+		"/C/xampp/htdocs/frontend/vistas/js/plantilla.js",
+		"/C/xampp/htdocs/frontend/vistas/modulos/cabezote.php",
+		"/C/xampp/htdocs/frontend/modelos/conexion.php",
+		"/C/xampp/htdocs/frontend/controladores/plantilla.controlador.php",
+		"/C/xampp/htdocs/frontend/vistas/modulos/cabezote.html.php",
+		"/C/xampp/htdocs/frontend/vistas/img/plantilla/icon-pass.png",
+		"/C/xampp/htdocs/frontend/vistas/img/plantilla/logoFacebook.png",
+		"/C/xampp/htdocs/frontend/vistas/img/plantilla/logoFacebook.jpg",
+		"/C/xampp/htdocs/frontend/vistas/img/plantilla/icon-email.png"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/CURILLA/Desktop/BORJA/DESARROLLO WEB/PLANTILLA_EMAIL/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "curso-mean-social.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
