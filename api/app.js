@@ -5,21 +5,17 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-//cargar rutas
-
+// cargar rutas
 var user_routes = require('./routes/user');
 var follow_routes = require('./routes/follow');
-var publications_routes = require('./routes/publication');
+var publication_routes = require('./routes/publication');
 var message_routes = require('./routes/message');
 
-
-//cargar middlewares
+// middlewares
 app.use(bodyParser.urlencoded({extended:false}));
-app.use(bodyParser.json());//combierte las peticiones del backend en JSON
+app.use(bodyParser.json());
 
-
-//cors
-// configurar cabeceras http
+// cors
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
@@ -29,12 +25,11 @@ app.use((req, res, next) => {
     next();
 });
 
-//rutas
+// rutas
 app.use('/api', user_routes);
 app.use('/api', follow_routes);
-app.use('/api', publications_routes);
+app.use('/api', publication_routes);
 app.use('/api', message_routes);
 
-
-//exportar
+// exportar
 module.exports = app;

@@ -1,17 +1,15 @@
 <div class="col-lg-5">
-
 	<h1 class="h1-strong">{{title}}</h1>
 
 	<div class="alert alert-success" *ngIf="status == 'success'">
-		Se han actualizado tus datos correctamente
+		Se han actualizado tus datos correctamente!!
 	</div>
 
 	<div class="alert alert-danger" *ngIf="status == 'error'">
-		No se han podido actualizar tus datos
+		No se han podido actualizar tus datos!!
 	</div>
 
 	<form #userEditForm="ngForm" (ngSubmit)="onSubmit()" class="col-lg-12">
-
 		<p>
 			<label>Nombre</label>
 			<input type="text" name="name" #name="ngModel" [(ngModel)]="user.name" required class="form-control"/>
@@ -19,7 +17,6 @@
 				El nombre es obligatorio
 			</span>
 		</p>
-
 
 		<p>
 			<label>Apellidos</label>
@@ -29,7 +26,6 @@
 			</span>
 		</p>
 
-
 		<p>
 			<label>Nick</label>
 			<input type="text" name="nick" #nick="ngModel" [(ngModel)]="user.nick" required class="form-control"/>
@@ -38,16 +34,15 @@
 			</span>
 		</p>
 
-
 		<p>
-			<label>Correo electronico</label>
-			<input type="text" name="email" #email="ngModel" [(ngModel)]="user.email" required class="form-control" />
+			<label>Correo electrónico</label>
+			<input type="email" name="email" #email="ngModel" [(ngModel)]="user.email" required class="form-control"/>
 			<span *ngIf="!email.value && email.touched">
-				El Correo electronico es obligatorio
+				El email es obligatorio
 			</span>
 		</p>
 
-		<div *ngIf="user.image">
+		<div class="user-image-for-edit" *ngIf="user.image">
 			<img src="{{ url + 'get-image-user/' + user.image }}" />
 		</div>
 
@@ -56,8 +51,7 @@
 			<input type="file" placeholder="Subir imagen" (change)="fileChangeEvent($event)"/>
 		</p>
 
-		<input type="submit" value="{{title}}" class="btn btn-warning" [disabled]="!userEditForm.form.valid"/>
-
+		<input type="submit" value="{{title}}" class="btn btn-warning" [disabled]="!userEditForm.form.valid" />
 	</form>
 
 </div>

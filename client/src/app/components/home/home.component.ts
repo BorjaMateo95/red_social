@@ -4,17 +4,14 @@ import { Component, OnInit } from '@angular/core';
 	selector: 'home',
 	templateUrl: './home.component.html'
 })
+export class HomeComponent implements OnInit{
+	public title:string;
 
-export class HomeComponent implements OnInit {
-
-	public title: string;
-
-
-	constructor() {
-		this.title = 'Bienvenido a NGSocial';
+	constructor(){
+		this.title = 'Bienvenido a NGSocial'
 	}
 
-	ngOnInit() {
-		
+	ngOnInit(){
+		console.log('home.component cargado !!');
 	}
 }
